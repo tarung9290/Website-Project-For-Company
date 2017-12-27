@@ -34,9 +34,10 @@ body{
 }
 
 
+
 .navbar{
   background-color: #fff;
-  border-bottom-color: : #00FFFF;
+  border-bottom-color: #00FFFF;
   margin-bottom: 0;
 
    }
@@ -193,6 +194,19 @@ margin: 0;
 
 
   /* contac-fom end */
+
+
+
+  /* company start */
+
+  #company-head{
+    background: rgb(120, 127, 235);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: white;
+    
+  }
 
 
 
