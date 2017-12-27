@@ -93,7 +93,7 @@ margin: 0;
   color: white;
 }
 .footer-copyright{
-  background: rgb(61, 165, 40);
+  background: rgb(83, 160, 67);
   color: black;
 }
 
@@ -101,7 +101,7 @@ margin: 0;
 /* ContactUs */
 
 .contactUs{
-  background-color: #dbc81a;
+  background-color: #cfc461;
   margin: 0;
   padding-top:20px; 
   overflow: hidden;
@@ -200,12 +200,38 @@ margin: 0;
   /* company start */
 
   #company-head{
-    background: rgb(120, 127, 235);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /* background: #00B2F1; */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
     padding-left: 20px;
     color: white;
     
+    border-bottom-style: solid;
+   margin-right: 85 %;
+   border-color: green;
+   margin-right:80%;
+
+
+    
+  }
+
+  #company-data{
+    color:white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 16px;
+    /* text-align: center; */
+  }
+  #company-data h4{
+    margin-left: 28px;
+    color: green; 
+   
+   
+   
+}
+  .start{
+    color: rgb(194, 56, 75);
+   
   }
 
 
