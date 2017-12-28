@@ -4,18 +4,34 @@
 body{
   margin: 0px 10%;
   line-height:1.6;
-
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
   background: url("../images/animie.jpeg")
   
-  
-  
 }
+
 
 .container{
   overflow-wrap: hidden;
 
+}
+
+  
+
+
+.pages-head{
+    
+    padding-left: 20px;
+    color: white;
+    
+    border-bottom-style: solid;
+   margin-right: 85 %;
+   border-color: green;
+   margin-right:80%;
+}
+
+.topnotch-word{
+  color: rgb(194, 56, 75);
+ 
 }
 
 /* Global */
@@ -29,7 +45,7 @@ body{
 #TopNotchNav ul li a:hover{
   background: greenyellow;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 16px;
 
 }
 
@@ -199,36 +215,18 @@ margin: 0;
 
   /* company start */
 
-  #company-head{
-    /* background: #00B2F1; */
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
-    padding-left: 20px;
-    color: white;
-    
-    border-bottom-style: solid;
-   margin-right: 85 %;
-   border-color: green;
-   margin-right:80%;
-
-
-    
-  }
+  
 
   #company-data{
     color:white;
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: 16px;
-    /* text-align: center; */
   }
   #company-data h4{
     margin-left: 28px;
     color: green; 
-   
-   
-   
-}
+   }
   .start{
     color: rgb(194, 56, 75);
    
@@ -238,9 +236,26 @@ margin: 0;
 
 
   /* services start */
- .services{
+ 
+
+ .consulting-service{
    color:white;
+   /* font-weight: bold; */
+   margin-top: 5%;
+   margin-bottom: 5%;
+   font-size: 16px;
+   
  }
+ .consulting-service ul{
+  margin-left: 10px;
+}
+.consulting-service h3{
+  color: green;
+
+}
+
+
+
 
 
   /* services end */
